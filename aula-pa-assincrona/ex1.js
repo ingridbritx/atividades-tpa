@@ -1,7 +1,8 @@
+//1️⃣ Contagem Simples Mostre todos os números de 1 até 20.
 const input = require("readline-sync")
 
-console.log("Contagem");
-for (let i = 1; i <= 20; i++) {
-    console.log(i)
+console.log("Mostre todos os números de 1 até 20");
+for (let numero = 1; numero <= 20; numero++) {
+    console.log("o numero = " ,numero);
 }
 console.log("-");

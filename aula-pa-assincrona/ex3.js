@@ -1,11 +1,12 @@
+//3️⃣ Soma dos Números Peça 5 números e mostre a soma total ao final.
+
 const input = require("readline-sync")
 
 let soma = 0; 
 
-for (let i = 1; i <=5; i++) {
-    let num = input.questionFloat(`Digite o ${i}º número: `);
-    soma += num;
+for (let contador = 0; contador <5; contador++) {
+    let numero = input.questionInt("Digite o "+(contador + 1)+ " º numero: ");
+    soma = soma + numero;
 }
 
 console.log("Soma total =", soma);
-console.log("-")

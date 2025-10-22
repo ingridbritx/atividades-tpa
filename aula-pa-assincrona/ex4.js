@@ -1,9 +1,11 @@
+//4️⃣ Contador Regressivo Peça um número e exiba a contagem regressiva até 0.
+
 const input = require("readline-sync")
 
 let numero = input.questionInt("Digite um número para contagem regressiva: ");
-for (let i = numero; i >= 0; i --) {
-    console.log(i);
+for (let cont = numero; cont >= 0; cont --) {
+    console.log(cont);
 }
 
-console.log("_");
+
 
