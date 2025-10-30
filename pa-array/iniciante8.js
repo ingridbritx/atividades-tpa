@@ -1,1 +1,6 @@
-const inteiros = [1,2,3,4,5,6,7,8,9,10];
+const pares = [1,2,3,4,5,6,7,8,9,10];
+
+for (let numero of pares) {
+    if (numero % 2 === 0) console.log(numero);
+    
+}
